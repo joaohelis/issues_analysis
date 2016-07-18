@@ -1,4 +1,6 @@
 target/
+config/
+code_repositories/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
