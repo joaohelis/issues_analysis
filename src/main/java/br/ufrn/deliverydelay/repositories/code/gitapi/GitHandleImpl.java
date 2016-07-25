@@ -34,7 +34,7 @@ public class GitHandleImpl implements GitHandle {
 		try{
 			String aux = new StringBuilder(url).reverse().toString();
 			aux = aux.substring(aux.indexOf(".")+1, aux.indexOf("/"));
-			return "repositories/"+new StringBuilder(aux).reverse().toString();
+			return "code_repositories/"+new StringBuilder(aux).reverse().toString();
 		}catch(Exception e){}
 		return null;
 	}
